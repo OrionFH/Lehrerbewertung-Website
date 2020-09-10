@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+#inputs {
+	margin-top: 69px;
+}
+
+#output {
+	display: none;
+}

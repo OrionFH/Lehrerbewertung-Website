@@ -1,0 +1,64 @@
+/* CSS Document */
+@import url("navbar.css");
+
+#ratingsContainer {
+	margin-top: -5px;
+}
+
+#teacher {
+	font-family: Segoe, "Segoe UI Light", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: left;
+	margin-left: 10px;
+	position: absolute;
+	font-size: 20px;
+	top: 50%;
+	margin: 0;
+	left: 10px;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.rating {
+	padding: 15px 10px;
+	font-family: Segoe, "Segoe UI Light", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+#ratingsContainer .rating:nth-child(odd){
+	background: #9A9A9A;
+	color: white;
+}
+
+.fa.fa-star.checked {
+	color: orange !important;
+}
+
+#ratingsContainer .rating:nth-child(even) .fa.fa-star{
+	color: #9A9A9A;
+}
+
+#toolbar {
+	height: 50px;
+	position: relative;
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 59px;
+}
+
+button {
+	position: absolute;
+	border-radius: 15px;
+	border: 1px #000 solid;
+	color: black;
+	outline: none;
+	background-color: lightgray;
+	height: 25px;
+	top: 50%;
+	margin: 0;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	right: 10px;
+}
+
+button:hover {
+	background-color: lightblue;
+}

@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	align-content: center;
+	text-align: center;
+	min-width: 300px;
+	margin: 0;
+	padding: 0;
+}
+
+#staylogged {
+	margin-top: 10px;
+}
+
+label {
+	position: relative;
+	display: inline;
+}
+
+.checkbox {
+	position: relative;
+	display: inline;	
+}
+
+.text {
+	display: block;
+	outline: none;
+	border-radius: 15px;
+	border: 1px #000 solid;
+	padding-left: 10px;
+	margin: 0 40px;
+	margin-top: 10px;
+	width: calc(100% - 100px);
+    font-size: 17px;
+}
+
+button {
+	display: inline;
+	position: relative;
+	outline: none;
+	border-radius: 15px;
+	border: 1px #000 solid;
+	background-color: lightgray;
+	color: black;
+	width: 30%;
+	margin: 0 2%;
+	margin-top: 20px;
+	height: 25px;
+}
+
+button:hover {
+	background-color: lightblue;
+}
+
+
+a {
+	float: right;
+	margin-top: 20px;
+	margin-right: 45px;
+}
